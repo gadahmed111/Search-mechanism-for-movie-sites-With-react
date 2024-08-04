@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color: #212429;
+}
+*{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+p{
+  margin: 0px;
+}
+.TheIconOfIamge{
+  width: 23px;
+  filter: invert(75%) sepia(37%) saturate(861%) hue-rotate(293deg) brightness(102%) contrast(97%);
+}
+.TheHeaderEle{
+  display: flex;
+  gap: 7px;
+  align-items: center;
+  cursor: pointer;
+  transition: all .3s linear;
+  border: 1.5px solid transparent;
+  padding: 4px;
+  border-radius: 6px;
+}
+.TheHeaderEle:hover{
+  border-color: white;
+  background-color: rgba(0, 0, 0, 0.123);
+}
+.HeadereleParnt{
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  user-select: none;
+}
+.TheTitle{
+  position: relative;
+  top: 1.5px;
+}
+.TheWebsiteName{
+  font-size: 40px;
+  letter-spacing: 4px; 
+}
+b{
+  position: relative;
+  right:7px;
+  color: #f190b1;
+  letter-spacing: 1px;
+}
+.TheHeader{
+  text-align: center;
+  background-image: url("./public/image's/TheHeaderImage/TIN-602 Spiderman_Homecoming_large_all.jpg");
+  background-size: 100%;
+  height: 400px;
+  color: white;
+  box-shadow:inset 1px 1px 100px 100px #212429;;
+  background-position: 0px ;
+}
+.TheWebSiteNAme{
+  margin-top: 150px;
+}
+.TheInputBody{
+  padding: 10px;
+  border-radius: 20px;
+  width: 40%;
+}
+.TheInputSearch{
+  height: 30px;
+  font-size: 15px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+.TheInputBody *{
+  /* border: 1px solid red; */
+}
+.TheMainPage{
+  position: relative;
+}
+.TheInputBody{
+  color: white;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 10fr 1fr;
+  grid-template-rows: 1fr;
+  /* position: absolute; */
+  bottom:90px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  z-index: 100;
+  background-color: rgba(255, 255, 255, 0.76);
+}
+hr{
+  /* outline: none; */
+  /* border: 10px white; */
+  margin-top:  10px;
+}
+.TheFilem{
+  margin-bottom: 0px;
+  margin-top: 20px;
+  color: white;
+  font-size: 30px;
+  margin-left: 10px;
+  /* margin: 10px; */
+}
+.TheImageWidth{
+  width: 30%;
+}
+.TheImageContiner{
+  /* border: 1px solid red; */
+  height: 200px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 320px;
+  user-select: none;
+  position: relative;
+}
+.TheYearOfProduction{
+  background-color: rgba(128, 128, 128, 0.671);
+  color: white;
+  padding: 5px;
+  position: absolute;
+  border-radius: 5px;
+  bottom: 3px;
+  left: 3px;
+}
+.TheFilemsBod{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 70px;
+  row-gap: 10px;
+}
+.TheBosterImage{
+  margin: 10px;
+  /* border: 1px solid red  ; */
+}
+h4{
+  color: white;
+}
+.IDm{
+  color: #f190b1;
+  position: relative;
+  bottom: 15px;
+}
+.TheImageContiner{
+  cursor: pointer;
+}
